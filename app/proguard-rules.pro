@@ -1,0 +1,6 @@
+-keep class dagger.hilt.** { *; }
+-keep class androidx.camera.** { *; }
+-keep class com.google.mlkit.** { *; }
+-keep class com.android.billingclient.** { *; }
+-keep class com.google.firebase.** { *; }
+-dontwarn javax.annotation.**

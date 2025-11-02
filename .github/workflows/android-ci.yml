@@ -1,0 +1,15 @@
+name: Android CI
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gradle/actions/setup-gradle@v3
+      - name: Configure JDK
+        uses: actions/setup-java@v4
+        with: { distribution: 'temurin', java-version: '21' }
+      - name: Build Free Debug
+        run: ./gradlew :app:assembleFreeDebug
+      - name: Unit Tests
+        run: ./gradlew test
