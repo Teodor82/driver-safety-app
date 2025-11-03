@@ -19,7 +19,7 @@ To make advanced road safety accessible to every driver, everywhere.
 
 **Created by:** Teodor Penev  
 **Role:** Founder & Product Engineer 
-**Repository:** [github.com/Teodor82/drive-alertix](https://github.com/Teodor82/drive-alertix)
+**Repository:** [github.com/Teodor82/drive-alertix-app](https://github.com/Teodor82/drive-alertix-app)
 
 
 
